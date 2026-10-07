@@ -5,11 +5,9 @@ This repository contains the consolidated security assessment of the VulnBank in
 The complete documentation includes vulnerability descriptions, affected components, reproduction steps, proof-of-concept evidence, severity and CVSS assessment, security impact, recommended remediation, and testing/compliance details for each finding.
 
 ## Scope of Assessment
-
 The assessment was performed against the authorized VulnBank training environment. Testing included web application analysis using tools such as Kali Linux, Burp Suite, Chromium, and other security-testing utilities where required.
 
 The documented findings include:
-
 - Insecure Direct Object Reference (IDOR)
 - Improper Password Reset Token Invalidation
 - Stored Cross-Site Scripting (XSS)
@@ -24,13 +22,21 @@ The documented findings include:
 - Insecure Cookie Configuration / Missing Security Flags
 
 ## Assessment Documentation
-
 Each vulnerability has been documented separately with its corresponding CWE classification, CVSS score, severity rating, technical analysis, proof of concept, impact assessment, and remediation recommendations.
 
-The complete consolidated report is provided as a PDF for reference and assessment submission.
+### 📄 Complete Security Assessment Report
+The complete consolidated report containing all 12 findings, technical evidence, proof-of-concept details, and remediation recommendations is available here:
+
+**[View the Complete VulnBank Security Assessment Report
+
+
+##**GOOGLE DRIVE LINK**##
+  ----------------------------------------------------------------------------------------
+|  https://drive.google.com/file/d/1QSwY2aR0GFdcTjUnrz1EUCLkRh7pXcgI/view?usp=drive_link   |
+  ----------------------------------------------------------------------------------------
+
 
 ## Disclaimer
-
 This work was conducted within an authorized cybersecurity training environment for educational and security-assessment purposes. The techniques and findings documented in this repository should only be reproduced against systems for which explicit authorization has been granted. Unauthorized testing of systems, applications, or infrastructure is strictly discouraged.
 
 ---
