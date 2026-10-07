@@ -1,0 +1,41 @@
+# VulnBank Security Assessment — Findings 1–12
+
+This repository contains the consolidated security assessment of the VulnBank intentionally vulnerable training application. The assessment covers twelve identified vulnerabilities across authentication, authorization, input validation, password security, file handling, command execution, session security, and sensitive-data protection.
+
+The complete documentation includes vulnerability descriptions, affected components, reproduction steps, proof-of-concept evidence, severity and CVSS assessment, security impact, recommended remediation, and testing/compliance details for each finding.
+
+## Scope of Assessment
+
+The assessment was performed against the authorized VulnBank training environment. Testing included web application analysis using tools such as Kali Linux, Burp Suite, Chromium, and other security-testing utilities where required.
+
+The documented findings include:
+
+- Insecure Direct Object Reference (IDOR)
+- Improper Password Reset Token Invalidation
+- Stored Cross-Site Scripting (XSS)
+- SQL Injection — Authentication Bypass
+- Reflected Cross-Site Scripting (XSS)
+- Sensitive Information Disclosure / Unauthenticated Access
+- Path Traversal / Directory Traversal
+- OS Command Injection
+- Broken Access Control / Privilege Escalation
+- Weak Password Hashing — MD5
+- Missing Brute-Force Protection
+- Insecure Cookie Configuration / Missing Security Flags
+
+## Assessment Documentation
+
+Each vulnerability has been documented separately with its corresponding CWE classification, CVSS score, severity rating, technical analysis, proof of concept, impact assessment, and remediation recommendations.
+
+The complete consolidated report is provided as a PDF for reference and assessment submission.
+
+## Disclaimer
+
+This work was conducted within an authorized cybersecurity training environment for educational and security-assessment purposes. The techniques and findings documented in this repository should only be reproduced against systems for which explicit authorization has been granted. Unauthorized testing of systems, applications, or infrastructure is strictly discouraged.
+
+---
+
+**Researcher:** Sai Vaibhav Yarra  
+**Assessment:** VulnBank Security Assessment  
+**Scope:** Findings #1–#12  
+**Environment:** Authorized VulnBank Training Lab
